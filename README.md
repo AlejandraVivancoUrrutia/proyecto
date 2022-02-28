@@ -26,6 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## El proyecto contiene un archivo JSON snk.json el cual tiene los datos necesarios para el despliegue de la información, lo cual se muestra implementado en una tabla 
-## dentro de component.html 
-## solo muestra los datos del JSON 
+## Observaciones
+El proyecto contiene un archivo JSON snk.json el cual tiene los datos necesarios para el despliegue de la información, lo cual se muestra implementado en una tabla dentro de component.html.
+Solo muestra los datos del JSON 
