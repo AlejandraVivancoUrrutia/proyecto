@@ -1,0 +1,27 @@
+<table>
+  <thead>
+    <tr>
+      <th scope="col">
+        ID
+      </th>
+      <th scope="col">
+        Nombre
+      </th>
+      <th scope="col">
+        Parentezco
+      </th>
+    </tr>
+   
+  </thead>
+  <tbody *ngFor="let snkChar of data" >
+    <tr>
+      <td scope="row" >{{snkChar.ID}}</td>
+      <td>{{snkChar.Name}}</td>
+      <td >{{snkChar.Parent}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<router-outlet></router-outlet>
